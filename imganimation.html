@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    .main{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        animation: gif 1s linear infinite;
+    }
+    img{
+        height: 50px;
+        width: 700px;
+        background-color: blue;
+       
+
+    }
+    .overlay{
+        position:absolute;
+      top: 30px;
+        height: 100%;
+        transition:height 5s;
+    }
+    p{
+        padding: 8px;
+        width: 300px;
+        color: white;
+
+}
+@keyframes gif {
+0% {
+transform: rotate(0deg) translateX(50px) rotate(0deg);
+}
+          100% {
+transform: rotate(360deg) translateX(50px) rotate(-360deg);
+}
+}
+
+
+
+  
+
+</style>
+<body>
+    <div class="main">
+   <img src='https://tse1.mm.bing.net/th?id=OIP.oGI50wxzcR-f-IlrsgqrcwHaFI&pid=Api&P=0&h=220' style="height: 300px;" alt="">
+   <div class="img">
+    <div class="overlay">
+   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure ad recusandae voluptate dolore, inventore minima, omnis eaque magnam odio, et ullam mollitia est? Incidunt fugit neque harum dicta nisi!</p>
+   </div>
+</div>
+</body>
+</html>
